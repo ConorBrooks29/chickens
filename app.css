@@ -6,11 +6,11 @@
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
-  -webkit-animation: stroke 2.5s infinite linear;
+  -webkit-animation: stroke 2.s infinite linear;
   animation: stroke 2.5s infinite linear;
 }
 .text:nth-child(5n+2) {
-  stroke: #1508ca;
+  stroke: #2517e9;
   -webkit-animation-delay: -1.2s;
   animation-delay: -1.2s;
 }
