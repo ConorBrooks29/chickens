@@ -1,7 +1,7 @@
 /* Main styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 .text {
-  fill: red;
+  fill: rgb(200, 16, 46);
   stroke-width: 3;
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
@@ -10,22 +10,22 @@
   animation: stroke 4.8s infinite linear;
 }
 .text:nth-child(5n+2) {
-  stroke: royalblue;
+  stroke: rgb(1, 33, 105);
   -webkit-animation-delay: -1.2s;
   animation-delay: -1.2s;
 }
 .text:nth-child(5n+3) {
-  stroke: white;
+  stroke: rgb(255, 255, 255);
   -webkit-animation-delay: -2.4s;
   animation-delay: -2.4s;
 }
 .text:nth-child(5n+3) {
-    stroke: royalblue;
+    stroke: rgb(1, 33, 105);
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s;
   }
   .text:nth-child(5n+3) {
-    stroke: white;
+    stroke: rgb(255, 255, 255);
     -webkit-animation-delay: -4.8;
     animation-delay: -4.8s;
   }
