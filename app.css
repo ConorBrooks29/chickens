@@ -1,9 +1,9 @@
 /* Main styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 .text {
-  fill: red;
+  fill: royalblue;
   stroke-width: 3;
-  stroke-linejoin: bevel;
+  stroke-linejoin: round;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
   -webkit-animation: stroke 3.6s infinite linear;
