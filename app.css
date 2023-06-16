@@ -6,8 +6,8 @@
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
-  -webkit-animation: stroke 2.s infinite linear;
-  animation: stroke 2.5s infinite linear;
+  -webkit-animation: stroke 4.8s infinite linear;
+  animation: stroke 4.8s infinite linear;
 }
 .text:nth-child(5n+2) {
   stroke: royalblue;
@@ -19,6 +19,15 @@
   -webkit-animation-delay: -2.4s;
   animation-delay: -2.4s;
 }
+.text:nth-child(5n+3) {
+    stroke: royalblue;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+  }
+  .text:nth-child(5n+3) {
+    stroke: white;
+    -webkit-animation-delay: -4.8;
+    animation-delay: -4.8s;
   }
 @-webkit-keyframes stroke {
   100% {
