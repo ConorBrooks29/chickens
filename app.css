@@ -59,7 +59,7 @@ body {
   background-size: 0.2em 100%;
   font: 5em/1 Open Sans, Impact;
   text-transform: uppercase;
-  margin: 1;
+  margin: 0;
 }
 
 svg {
