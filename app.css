@@ -1,7 +1,7 @@
 /* Main styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 .text {
-  fill: royalblue;
+  fill: red;
   stroke-width: 3;
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
@@ -9,20 +9,15 @@
   -webkit-animation: stroke 6s infinite linear;
   animation: stroke 6s infinite linear;
 }
-.text:nth-child(5n+1) {
-  stroke: #f70430;
+.text:nth-child(5n+2) {
+  stroke: #1508ca;
   -webkit-animation-delay: -1.0s;
   animation-delay: -1.0s;
 }
-.text:nth-child(5n+2) {
-  stroke: #1508ca;
-  -webkit-animation-delay: -2.0s;
-  animation-delay: -2.0s;
-}
 .text:nth-child(5n+3) {
   stroke: hwb(0 100% 0%);
-  -webkit-animation-delay: -3.0s;
-  animation-delay: -3.0s;
+  -webkit-animation-delay: -2.0s;
+  animation-delay: -2.0s;
 }
   }
 @-webkit-keyframes stroke {
