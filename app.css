@@ -20,7 +20,7 @@
   animation-delay: -2.4s;
 }
 .text:nth-child(5n+3) {
-  stroke: hwb(0 100% 0%);
+  stroke: hwb(0 99% 0%);
   -webkit-animation-delay: -3.6s;
   animation-delay: -3.6s;
 }
@@ -35,7 +35,7 @@
   animation-delay: -6s;
 }
 .text:nth-child(5n+3) {
-    stroke: hwb(0 100% 0%);
+    stroke: hwb(0 99% 0%);
     -webkit-animation-delay: -7.2s;
     animation-delay: -7.2s;
   }
