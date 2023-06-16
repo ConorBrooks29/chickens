@@ -1,7 +1,7 @@
 /* Main styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
 .text {
-  fill: none;
+  fill: red;
   stroke-width: 3;
   stroke-linejoin: round;
   stroke-dasharray: 70 330;
