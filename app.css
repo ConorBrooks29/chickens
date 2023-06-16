@@ -10,12 +10,12 @@
   animation: stroke 2.5s infinite linear;
 }
 .text:nth-child(5n+2) {
-  stroke: #2517e9;
+  stroke: royalblue;
   -webkit-animation-delay: -1.2s;
   animation-delay: -1.2s;
 }
 .text:nth-child(5n+3) {
-  stroke: hwb(0 100% 0%);
+  stroke: white;
   -webkit-animation-delay: -2.4s;
   animation-delay: -2.4s;
 }
