@@ -3,7 +3,7 @@
 .text {
   fill: red;
   stroke-width: 3;
-  stroke-linejoin: round;
+  stroke-linejoin: bevel;
   stroke-dasharray: 70 330;
   stroke-dashoffset: 0;
   -webkit-animation: stroke 3.6s infinite linear;
