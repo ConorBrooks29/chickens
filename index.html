@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html lang="en"
-
+<html lang="en">
 <head>
-        <meta charset="UTF-4">
-        <meta name="viewpoint" content="width=device-width, initial-scale=0.25">
-        <title>GREAT BRITAIN</title>
-        <link rel="stylesheet" href="app.css">  
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GREAT BRITAIN</title>
+    <link rel="stylesheet" href="app.css">  
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
+        svg {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
 <body>
     <svg viewBox="0 0 500 250">
         <!-- Symbol-->
         <symbol id="s-text">
-          <text text-anchor="middle" x="50%" y="50%" dy=".50em">GREAT BRITAIN</text>
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">GREAT BRITAIN</text>
         </symbol>
         <!-- Duplicate symbols-->
         <use class="text" xlink:href="#s-text"></use>
@@ -20,7 +33,6 @@
         <use class="text" xlink:href="#s-text"></use>
         <use class="text" xlink:href="#s-text"></use>
         <use class="text" xlink:href="#s-text"></use>
-      </svg>
+    </svg>
 </body>
-
 </html>
