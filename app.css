@@ -11,18 +11,18 @@
 }
 .text:nth-child(5n+1) {
   stroke: #f70430;
-  -webkit-animation-delay: -1.2s;
-  animation-delay: -1.2s;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
 }
 .text:nth-child(5n+2) {
   stroke: #1508ca;
-  -webkit-animation-delay: -2.4s;
-  animation-delay: -2.4s;
+  -webkit-animation-delay: -2.0s;
+  animation-delay: -2.0s;
 }
 .text:nth-child(5n+3) {
   stroke: hwb(0 100% 0%);
-  -webkit-animation-delay: -3.6s;
-  animation-delay: -3.6s;
+  -webkit-animation-delay: -3.0s;
+  animation-delay: -3.0s;
 }
   }
 @-webkit-keyframes stroke {
