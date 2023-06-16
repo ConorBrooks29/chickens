@@ -16,8 +16,8 @@
 }
 .text:nth-child(5n+2) {
   stroke: rgb(200, 16, 46);
-  -webkit-animation-delay: -1.2s;
-  animation-delay: -1.2s;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
 }
 .text:nth-child(5n+3) {
     stroke: rgb(1, 33, 105);
